@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ProPrj_SPE 10BASE-T1L USB adapter")(type "KiCad")(uri "$(KIPRJMOD)/ProPrj_SPE 10BASE-T1L USB adapter.pretty")(options "")(descr ""))
+)

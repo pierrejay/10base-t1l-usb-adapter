@@ -1,0 +1,13 @@
+EASYEDA_MODELS/
+*.step
+*.stp
+*.wrl
+*.wings
+
+*-backups/
+*.kicad_prl
+fp-info-cache
+
+__pycache__/
+*.pyc
+.DS_Store

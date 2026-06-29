@@ -43,6 +43,8 @@ bypassed and the MII bus drives the DP83TD510E.
 
 Turnkey at JLCPCB. Import the EasyEDA Pro project, then order PCB + assembly in one shot. 
 
+Rev 1 is also provided as a KiCad project in [`hw_rev1/kicad/`](hw_rev1/kicad/) (KiCad v9.0.7).
+
 **4-layer PCB**: select the `JLC04161H-3313` stackup. The impedance-sensitive 
 nets (USB-C D±, the MII bus, the T1L pair) are designed against that specific stackup.
 
