@@ -18,16 +18,9 @@ diagnostics.
 The LAN9500A runs in external PHY (MII) mode: its internal 100M PHY is
 bypassed and the MII bus drives the DP83TD510E.
 
-## Hardware revisions
-
-| Revision | Folder | Status |
-|---|---|---|
-| Rev 0 | [`hw_rev0/`](hw_rev0/) | Tested, functional |
-| Rev 1 | [`hw_rev1/`](hw_rev1/) | Designed, pending validation |
-
 <img src="hw_rev1/pcb_2d_r1.png" alt="T1L USB adapter PCB rev 1 — front and back" width="420">
 
-### Changelog - Rev 1
+## Changelog - Rev 1
 
 - Changed the SPE 24V TVS to a low-cap Ethernet part (`PESD2ETH-AX`) and moved it to
   the PHY side of the CMC for better DP83TD510E front-end protection.
@@ -39,7 +32,13 @@ bypassed and the MII bus drives the DP83TD510E.
 - Swapped PWR/LINK LED placement to simplify routing.
 - Board size is now **51.5 × 22 mm** (Rev 0 was 50 × 22 mm).
 
-### Fabrication
+## Enclosure
+
+A 3D-printable case STEP model is provided for each of the hardware revisions. It needs a single ⌀2.5×8 mm flat head screw (Plastite or sheet metal/self-tapping screw) to attach the USB-side cap.
+
+<img src="hw_rev1/case_3d_splitview_r1.png" alt="T1L USB adapter PCB rev 1 — 3D split view with case" width="420">
+
+## Fabrication
 
 Turnkey at JLCPCB. Import the EasyEDA Pro project, then order PCB + assembly in one shot. 
 
