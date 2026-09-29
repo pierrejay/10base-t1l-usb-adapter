@@ -301,13 +301,13 @@
 	(pad "1" smd rect
 		(at -0.7 0 180)
 		(size 0.8 0.864)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(uuid "0af7fc6c-eeaa-41c3-98ab-2ed8385f4225")
 	)
 	(pad "2" smd rect
 		(at 0.7 0 180)
 		(size 0.8 0.864)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(uuid "f343b2dd-f9e6-4e13-a071-da27d5705dc1")
 	)
 	(embedded_fonts no)

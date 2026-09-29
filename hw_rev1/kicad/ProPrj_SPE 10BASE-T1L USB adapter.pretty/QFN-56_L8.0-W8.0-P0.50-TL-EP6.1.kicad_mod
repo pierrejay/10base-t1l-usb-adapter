@@ -934,6 +934,17 @@
 			)
 		)
 	)
+	(fp_rect
+		(start -2.44 -2.44)
+		(end 2.44 2.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "4df08beb-94a1-4162-86b4-56733a98a34b")
+	)
 	(pad "1" smd oval
 		(at -3.9075 -3.25)
 		(size 0.79 0.28)
@@ -1273,7 +1284,7 @@
 	(pad "57" smd rect
 		(at 0 0)
 		(size 6.1 6.1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(uuid "91d21376-2217-4205-ba6c-e8e706118ea6")
 	)
 	(embedded_fonts no)
